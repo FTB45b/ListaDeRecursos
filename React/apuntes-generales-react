@@ -1,0 +1,59 @@
+Notas generales de la libreria React:
+
+
+React Routing Dom (npm install react-router-dom ).-
+
+Optional chaining (?.) --> El encadenamiento opcional 
+
+El encadenamiento opcional .-
+
+es una característica poderosa de React que puede facilitar mucho el trabajo con objetos profundamente anidados. Cuando se trata de objetos de datos de gran tamaño procedentes de API externas, puede resultar complicado acceder a las propiedades de los objetos sin comprobaciones explícitas de valores nulos o indefinidos. Afortunadamente, ECMAScript 2020 introdujo el encadenamiento opcional, que le permite acceder de forma segura a estas propiedades sin riesgo de errores.
+
+tratar con objetos profundamente anidados
+Digamos que tiene un componente que recibe un accesorio llamado "usuario" que contiene un objeto con una propiedad llamada "dirección". Para acceder a la propiedad "calle" del objeto "dirección", puede escribir un código como este:
+
+        const calle = usuario.dirección.calle;
+
+Este código supone que tanto "usuario" como "dirección.usuario" no son nulos ni están indefinidos. Si alguno de esos valores es nulo o no está definido, el código generará un error y bloqueará su aplicación.
+Para evitar estos errores, puede escribir un código como este:
+
+        const calle = usuario && dirección.usuario && dirección.usuario.calle;
+
+Sin embargo, este enfoque puede volverse rápidamente engorroso y difícil de leer, especialmente cuando se trata de objetos profundamente anidados.
+La solución: encadenamiento opcional
+
+Con el encadenamiento opcional, puede escribir código seguro, eficiente y fácil de mantener. Para utilizar el encadenamiento opcional, agregue un signo de interrogación (?) antes de cada propiedad a la que desee acceder. Por ejemplo, para acceder a la propiedad "calle" del objeto "dirección" usando el encadenamiento opcional, puede escribir:
+
+        const calle = usuario?.dirección?.calle;
+
+Nota: con el encadenamiento opcional / Optional chaining decimos que primero valide si existe algo en la propiedad del objeto y luego accede a dicha propiedad. 
+
+        <BrowserRouter> --> Le avisa a toda la APP que puede usar rutas
+
+        <Routes> --> Es la caja contenedora de todas las rutas
+
+        <Route> --> Es la ruta como tal, le tengo que pasar 2 atributos
+        - patch: Es un string que indica la ruta
+        - element: Es el componente a renderizar en la ruta 
+
+        <Link> y <NavLink> --> Me deja redireccionar a rutas especificas
+
+        useParams --> Me permite traer el id de una api o el valor variable de la ruta
+
+        useNavigate --> Me permite redireccionar a un usuario
+
+        useLocation --> Me brinda la informacion de en que ruta se encuentra el usuario
+
+
+
+
+React Form.-
+
+Existen 2 tipos de formularios
+
+Estaremos trabajando con formularios controlados/ controlled
+1: Controlled --> El valor del input tiene un bind al estado del componente, Recomendado por los creadores de React, Sigue los patrones de React, Es predecible.
+
+2: Uncontroled --> El valor se obtiene del DOM, Sencillo de hacer no hay que aprender cosas nuevas, No podemos controlar lo que se escribe en el input, No es predecible.
+
+En React existe un atributo llamado key 
