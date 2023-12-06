@@ -83,7 +83,15 @@ Aquí encontrarás una colección de enlaces útiles que cubren varios aspectos 
 
 A continuación se presenta una selección de cursos para aquellos que inician en React o desean reforzar sus conocimientos básicos:
 
-*Principiantes*
+### React para principiantes
   - [Fazt: Curso de React desde cero](https://www.youtube.com/watch?v=rLoWMU4L_qE) - Un curso introductorio para comprender los fundamentos de React.
   - [FreeCodeCamp: Aprende React Desde Cero - Curso de React Con Proyectos](https://www.youtube.com/watch?v=rLoWMU4L_qE) - Curso práctico para principiantes que buscan una aplicación real de los conceptos de React.
+  - [Midudev: Curso de React desde Cero](https://youtube.com/playlist?list=PLUofhDIg_38q4D0xNWp7FEHOTcZhjWJ29) - Es una lista de videos de MiduDev para aprender React de una forma práctica.
+  - [Meta - Conceptos Básicos de React](https://www.coursera.org/learn/react-basics) 🇺🇸: Un curso de React dictado por la compañía que creó React.
 
+### React Intermedio
+- [Documentación Oficial](https://es.react.dev/learn): Documentacion de usuario oficial de React en Español.
+- [Garage de ideas - useContext en 20 minutos](https://youtu.be/Ae33_gdJgnQ): Es un video que explica el "ContextAPI" de React, el cual nos permite mantener estados globales sin usar redux.
+- [Midudev - Refactorizando componentes con Custom Hooks](https://youtu.be/1zYf4Yw1jqs): es un video que nos explica como separar la logica de los hooks en los componentes principales haciendo nuestros propios hooks.
+- [Luis Cabrera - React memo, useMemo y useCallback en detalle con ejemplo practico](https://youtu.be/maUZjMJ4bF4): Es un video que nos enseña las tecnicas de memoizacion que nos ofrece React.
+- [Dave Gray](React v18 Hooks - Use transition vs UseDeferedValue examples and comparison) 🇺🇸: Es un video que explica como usar los hooks nuevos introducidos en react v18
