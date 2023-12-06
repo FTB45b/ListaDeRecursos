@@ -94,4 +94,4 @@ A continuación se presenta una selección de cursos para aquellos que inician e
 - [Garage de ideas - useContext en 20 minutos](https://youtu.be/Ae33_gdJgnQ): Es un video que explica el "ContextAPI" de React, el cual nos permite mantener estados globales sin usar redux.
 - [Midudev - Refactorizando componentes con Custom Hooks](https://youtu.be/1zYf4Yw1jqs): es un video que nos explica como separar la logica de los hooks en los componentes principales haciendo nuestros propios hooks.
 - [Luis Cabrera - React memo, useMemo y useCallback en detalle con ejemplo practico](https://youtu.be/maUZjMJ4bF4): Es un video que nos enseña las tecnicas de memoizacion que nos ofrece React.
-- [Dave Gray](React v18 Hooks - Use transition vs UseDeferedValue examples and comparison) 🇺🇸: Es un video que explica como usar los hooks nuevos introducidos en react v18
+- [Dave Gray React v18 Hooks - Use transition vs UseDeferedValue examples and comparison](https://youtu.be/U9Cth5xDEKs) 🇺🇸: Es un video que explica como usar los hooks nuevos introducidos en react v18
