@@ -58,6 +58,8 @@ Una vez que hayas enviado tu Pull Request, espera a que el mantenedor del reposi
 
 - [Cómo Hacer un Pull Request en GitHub](https://www.youtube.com/watch?v=Zqft6yNRuNs) - Un video tutorial para principiantes en GitHub.
 
+* 🇺🇸: Contenido en Inglés 
+
 ## Recursos de CSS
 
 Aquí encontrarás una colección de enlaces útiles que cubren varios aspectos importantes del CSS, desde juegos interactivos para aprender CSS Grid y Flexbox hasta tutoriales y guías sobre convenciones y técnicas avanzadas.
