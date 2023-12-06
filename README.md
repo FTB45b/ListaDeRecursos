@@ -58,6 +58,27 @@ Una vez que hayas enviado tu Pull Request, espera a que el mantenedor del reposi
 
 - [Cómo Hacer un Pull Request en GitHub](https://www.youtube.com/watch?v=Zqft6yNRuNs) - Un video tutorial para principiantes en GitHub.
 
+## Recursos de CSS
+
+Aquí encontrarás una colección de enlaces útiles que cubren varios aspectos importantes del CSS, desde juegos interactivos para aprender CSS Grid y Flexbox hasta tutoriales y guías sobre convenciones y técnicas avanzadas.
+
+### Aprendizaje Interactivo
+
+- [CSS Grid Garden](https://cssgridgarden.com/#es) - Un juego para aprender CSS Grid de manera divertida e interactiva.
+- [Flexbox Froggy](https://flexboxfroggy.com/#es) - Un juego que te enseña los conceptos de Flexbox de una manera entretenida y práctica.
+
+### Guías y Tutoriales
+
+- [Tutorial de LESS CSS](https://www.ionos.mx/digitalguide/paginas-web/desarrollo-web/less-css-tutorial/) - Una guía completa para entender y empezar a utilizar LESS, un preprocesador de CSS.
+- [Qué es BEM en CSS](https://animaticss.com/articulo/que-es-bem-css/) - Un artículo explicativo sobre la metodología BEM, útil para organizar tus hojas de estilo.
+- [Comprensión de la Herencia en CSS](https://webdesign.tutsplus.com/es/understanding-css-inheritance-inherit-initial-unset-and-revert-keywords--cms-34233t) - Explicación detallada sobre la herencia en CSS y palabras clave como `inherit`, `initial`, `unset` y `revert`.
+
+### Herramientas y Referencias Rápidas
+
+- [Grid Malven](https://grid.malven.co/) - Una referencia rápida para CSS Grid.
+- [Flexbox Malven](https://flexbox.malven.co/) - Una referencia rápida para Flexbox.
+
+
 ## Cursos de React
 
 A continuación se presenta una selección de cursos para aquellos que inician en React o desean reforzar sus conocimientos básicos:
